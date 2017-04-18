@@ -94,7 +94,7 @@ function reset(){
 	pickedColor = pickColor();
 
 	//change colorDisplay to match picked Color
-	colorDisplay.textcontent = pickedColor;
+	colorDisplay.textContent = pickedColor;
 	btnPlayAgain.textContent = "New Colors";
 
 	messageDisplay.textContent = "";
